@@ -2,7 +2,7 @@
 
 Flutter自動テストのサンプルアプリ
 
-## 概要
+# 概要
 
 Flutterの自動テストを学ぶために作成したプロジェクト
 
@@ -12,24 +12,20 @@ E2EツールはMaestoroを採用
 
 参考：[What is Maestro?](https://maestro.mobile.dev/)
 
-## 目次
-
-1. 
-
-## 環境構築
+# 環境構築
 
 FlutterSDKはfvmで指定
 ```
 fvm use
 ```
 
-## ビルド
+# ビルド方法
 
 ```
 fvm flutter run 
 ```
 
-# テスト
+# テスト方法
 
 ## Unit
 
