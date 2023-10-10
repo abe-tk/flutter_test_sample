@@ -58,10 +58,12 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        key: const Key('increment'),
+        key: const Key('increment'), // Integration Test
         onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
+        child: const Icon(
+          Icons.add,
+          semanticLabel: 'fabAddIcon', // Maestro（E2E）
+        ),
       ),
     );
   }

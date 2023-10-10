@@ -1,0 +1,4 @@
+appId: "com.example.flutter_test_sample"
+---
+- tapOn: "Flutter Test Sample"
+- tapOn: "fabAddIcon"
