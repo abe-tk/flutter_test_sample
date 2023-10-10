@@ -29,58 +29,34 @@ fvm flutter run
 
 ## Unit
 
-- テスト対象
+テスト対象：`lib/counter.dart`
 
-`lib/counter.dart`
+テストコード`test/counter_test.dart`
 
-- テストコード
-
-`test/counter_test.dart`
-
-- 実行方法
-
-`counter_test.dart`を実行
+実行方法：`counter_test.dart`を実行
 
 ## Widget
 
-- テスト対象
+テスト対象：`lib/main.dart`
 
-`lib/main.dart`
+テストコード：`test/widget_test.dart`
 
-- テストコード
-
-`test/widget_test.dart`
-
-- 実行方法
-
-`widget_test.dart`を実行
+実行方法：`widget_test.dart`を実行
 
 ## Integration
 
-- テスト対象
+テスト対象：アプリ全体
 
-アプリ全体
+テストコード：`integration_test/app_test.dart`
 
-- テストコード
-
-`integration_test/app_test.dart`
-
-- 実行方法
-
-アプリをビルドし`app_test.dart`を実行
+実行方法：アプリをビルドし`app_test.dart`を実行
 
 ## Maestro
 
 ※Maestroのインストールは[InstallingMaestro](https://maestro.mobile.dev/getting-started/installing-maestro)を参照
 
-- テスト対象
+テスト対象：アプリ全体
 
-アプリ全体
+テストコード：`maestro/Flow.yaml`
 
-- テストコード
-
-`maestro/Flow.yaml`
-
-- 実行方法
-
-`maestro test Flow.yaml`
+実行方法：`maestro test Flow.yaml`
